@@ -3,7 +3,7 @@
  C++ Fall 2022
  Due: Sept. 28, 2022
  Lab 3 User and File I/O
- This Lab is a demo of my ability to use
+ This Lab is a demo of my ability to use inputs from files and users to complete claculations.
 */
 
 #include <iostream>
