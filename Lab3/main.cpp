@@ -36,14 +36,14 @@ int d;
 
 
 int main(){
-    outfile.open(outputFile);
+    outfile.open(outputFile);          //Opens file
     userinput();
     
-    cout << "Mean: " << meancalc() << endl;
-    cout << "Population Standard Deviation: " << stddevcalc() << endl;
+    cout << "Mean: " << meancalc() << endl;     //User Mean
+    cout << "Population Standard Deviation: " << stddevcalc() << endl;     //User Standard Deviation
     
     fileinput();
-    filecalc();
+    filecalc();      //File Standard Deviation and Mean
     
     return 0;
 }
@@ -75,7 +75,7 @@ float fileinput(){
     
     infile >> a >> b >> c >> d;
     
-    //cout << endl << a << endl << b << endl<< c << endl << d;
+    //cout << endl << a << endl << b << endl<< c << endl << d;  //test to see if values were being pulled
 
     return 0;
 }
